@@ -16,7 +16,7 @@ import { Construct } from 'constructs';
 
 const AWSCLI_LAYER_ARN = 'arn:aws:serverlessrepo:us-east-1:903779448426:applications/lambda-layer-awscli';
 const AWSCLI_LAYER_VERSION = '1.16.281';
-const BUCKET_NAME = 't-fargate-stream-s3-20220522';  // Change this bucket name.
+const BUCKET_NAME = '<NEW-BUCKET-NAME>';  // Change this bucket name.
 const STREAM_NAME = 'DELIVERY-STREAM-S3';
 
 export interface FargateFastAutoscalerProps {
