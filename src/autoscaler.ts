@@ -209,6 +209,7 @@ export class FargateFastAutoscaler extends Construct {
       protocol: elbv2.Protocol.TCP,
       targets: [demoService],
       deregistrationDelay: Duration.seconds(3),
+      proxyProtocolV2: true,
     });
 
 
